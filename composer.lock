@@ -4,7 +4,7 @@
         "Read more about it at http://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "hash": "e2e4788294de1b8f99805f5834c65104",
+    "hash": "f453461d9d6cedaf2a86aeacc908c749",
     "packages": [
         {
             "name": "afigestion/plugins",
