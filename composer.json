@@ -23,9 +23,16 @@
 	"config": {
 		"vendor-dir": "Vendor"
 	},
+	"repositories": [
+        {
+            "type": "git",
+            "url": "https://github.com/alevilar/afigestion-app"
+        }
+    ],
 	"require": {
 		"php": ">=5.3.10",
 		"croogo/croogo": "~2.2",
+		"afigestion/plugins": "master@dev",
 		"cakephp/cakephp": "~2.5"
 	},
 	"suggest": {

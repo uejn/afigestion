@@ -59,6 +59,10 @@ App::build(array(
 	'Plugin' => array(APP . 'Vendor' . DS . 'croogo' . DS . 'croogo' . DS ),
 ), App::APPEND);
 
+App::build(array(
+	'Plugin' => array(APP . 'Vendor' . DS . 'afigestion' . DS . 'plugins' . DS ),
+), App::APPEND);
+
 Configure::write('Dispatcher.filters', array(
 	'AssetDispatcher',
 	'CacheDispatcher'

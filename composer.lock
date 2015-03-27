@@ -4,8 +4,31 @@
         "Read more about it at http://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "hash": "7f25a3cd56f47a426fd105097f46da99",
+    "hash": "e2e4788294de1b8f99805f5834c65104",
     "packages": [
+        {
+            "name": "afigestion/plugins",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/alevilar/afigestion-app",
+                "reference": "ccae313abaa93f3b3dbb8eb90b0c40f723e65848"
+            },
+            "type": "library",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Ale Vilar",
+                    "email": "alevilar@gmail.com",
+                    "homepage": "http://www.alevilar.com"
+                }
+            ],
+            "description": "Afigestion APP donde estan los plugins",
+            "homepage": "http://github.com/alevilar/afigestion-app",
+            "time": "2015-03-27 17:56:51"
+        },
         {
             "name": "cakedc/migrations",
             "version": "2.3.6",
@@ -691,21 +714,24 @@
         },
         {
             "name": "symfony/yaml",
-            "version": "v2.6.4",
+            "version": "v2.6.5",
             "target-dir": "Symfony/Component/Yaml",
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/Yaml.git",
-                "reference": "60ed7751671113cf1ee7d7778e691642c2e9acd8"
+                "reference": "0cd8e72071e46e15fc072270ae39ea1b66b10a9d"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/symfony/Yaml/zipball/60ed7751671113cf1ee7d7778e691642c2e9acd8",
-                "reference": "60ed7751671113cf1ee7d7778e691642c2e9acd8",
+                "url": "https://api.github.com/repos/symfony/Yaml/zipball/0cd8e72071e46e15fc072270ae39ea1b66b10a9d",
+                "reference": "0cd8e72071e46e15fc072270ae39ea1b66b10a9d",
                 "shasum": ""
             },
             "require": {
                 "php": ">=5.3.3"
+            },
+            "require-dev": {
+                "symfony/phpunit-bridge": "~2.7"
             },
             "type": "library",
             "extra": {
@@ -734,12 +760,13 @@
             ],
             "description": "Symfony Yaml Component",
             "homepage": "http://symfony.com",
-            "time": "2015-01-25 04:39:26"
+            "time": "2015-03-12 10:28:44"
         }
     ],
     "aliases": [],
     "minimum-stability": "stable",
     "stability-flags": {
+        "afigestion/plugins": 20,
         "phpunit/phpunit": 20
     },
     "prefer-stable": false,
