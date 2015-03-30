@@ -80,3 +80,8 @@ CakeLog::config('error', array(
 ));
 
 CakePlugin::load('Croogo', array('bootstrap' => true));
+
+CakePlugin::load('Afigestion', array('bootstrap' => true, 'routes' => false));
+
+CakePlugin::load('Afiliados', array('bootstrap' => false, 'routes' => false));
+
