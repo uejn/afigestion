@@ -13,7 +13,7 @@ node_modules/
 webroot/vendors/
 
 # Cake cache
-tmp/
+#tmp/
 
 # Others
 .DS_Store
