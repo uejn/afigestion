@@ -9,5 +9,5 @@ App::uses('CroogoAppController', 'Croogo.Controller');
  * @link     http://www.croogo.org
  */
 class AppController extends CroogoAppController {
-
+public $components = array('DebugKit.Toolbar');
 }

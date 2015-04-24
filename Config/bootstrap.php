@@ -40,7 +40,7 @@ if (file_exists(APP . 'Vendor/autoload.php')) {
  *     'datasources' => array('/full/path/to/datasources/', '/next/full/path/to/datasources/'),
  *     'behaviors' => array('/full/path/to/behaviors/', '/next/full/path/to/behaviors/'),
  *     'components' => array('/full/path/to/components/', '/next/full/path/to/components/'),
- *     'helpers' => array('/full/path/to/helpers/', '/next/full/path/to/helpers/'),
+	 *     'helpers' => array('/full/path/to/helpers/', '/next/full/path/to/helpers/'),
  *     'vendors' => array('/full/path/to/vendors/', '/next/full/path/to/vendors/'),
  *     'shells' => array('/full/path/to/shells/', '/next/full/path/to/shells/'),
  *     'locales' => array('/full/path/to/locale/', '/next/full/path/to/locale/')
@@ -79,9 +79,8 @@ CakeLog::config('error', array(
 	'file' => 'error',
 ));
 
+
+
 CakePlugin::load('Croogo', array('bootstrap' => true));
-
-CakePlugin::load('Afigestion', array('bootstrap' => true, 'routes' => false));
-
-CakePlugin::load('Afiliados', array('bootstrap' => false, 'routes' => false));
+CakePlugin::load('DebugKit');
 

@@ -3,6 +3,7 @@ Config/croogo.php
 Config/database.php
 Config/settings.json
 webroot/uploads/
+Plugin/
 Vendor/
 *.bak
 *.swp
@@ -13,7 +14,7 @@ node_modules/
 webroot/vendors/
 
 # Cake cache
-#tmp/
+tmp/
 
 # Others
 .DS_Store
