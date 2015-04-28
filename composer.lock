@@ -4,7 +4,7 @@
         "Read more about it at http://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "hash": "11ccb51cd112abf897c22919d74b896a",
+    "hash": "dd50d975d50830455342cc9f14c518a2",
     "packages": [
         {
             "name": "afigestion/plugins",
@@ -12,7 +12,7 @@
             "source": {
                 "type": "git",
                 "url": "git@github.com:alevilar/afigestion-app.git",
-                "reference": "6e81603cbe6b688780ad63f65da47efb774dccc6"
+                "reference": "ec6241975d4b4c0c783b279805f0668581f92f01"
             },
             "type": "library",
             "license": [
@@ -27,7 +27,7 @@
             ],
             "description": "Afigestion APP donde estan los plugins",
             "homepage": "http://github.com/alevilar/afigestion-app",
-            "time": "2015-04-28 17:56:03"
+            "time": "2015-04-28 18:05:18"
         },
         {
             "name": "cakedc/migrations",
@@ -343,6 +343,49 @@
             "description": "Croogo - Open Source CMS built for everyone",
             "homepage": "http://github.com/croogo/croogo",
             "time": "2015-04-25 09:06:10"
+        },
+        {
+            "name": "cvo-technologies/croogo-bootstrap",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "git@github.com:MMS-Projects/croogo-bootstrap-theme.git",
+                "reference": "20c0b9253a5ee70715dba163480112e0fd1f94d8"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/MMS-Projects/croogo-bootstrap-theme/zipball/20c0b9253a5ee70715dba163480112e0fd1f94d8",
+                "reference": "20c0b9253a5ee70715dba163480112e0fd1f94d8",
+                "shasum": ""
+            },
+            "require": {
+                "composer/installers": "~1.0"
+            },
+            "type": "croogo-theme",
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "proprietary"
+            ],
+            "authors": [
+                {
+                    "name": "Marlin Cremers",
+                    "email": "m.cremers@cvo-technologies.com",
+                    "homepage": "http://marlinc.nl",
+                    "role": "Developer"
+                },
+                {
+                    "name": "Laszlo Van Oudenhove",
+                    "email": "l.vanoudenhove@cvo-technologies.com",
+                    "role": "Designer"
+                },
+                {
+                    "name": "Steven van Oosten",
+                    "email": "stevenvanoosten@outlook.com",
+                    "role": "Original developer"
+                }
+            ],
+            "description": "CVO-Technologies Bootstrap theme",
+            "time": "2014-11-28 09:49:04"
         }
     ],
     "packages-dev": [
@@ -819,6 +862,7 @@
     "stability-flags": {
         "composer/installers": 20,
         "afigestion/plugins": 20,
+        "cvo-technologies/croogo-bootstrap": 20,
         "phpunit/phpunit": 20
     },
     "prefer-stable": false,

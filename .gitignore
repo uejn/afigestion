@@ -15,7 +15,9 @@ webroot/vendors/
 
 # Cake cache
 tmp
-
+tmp/*
 
 # Others
 .DS_Store
+
+View/Themed/CroogoBootstrap/
