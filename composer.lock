@@ -4,7 +4,7 @@
         "Read more about it at http://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "hash": "759db8b3144c370dce48e033d765184f",
+    "hash": "11ccb51cd112abf897c22919d74b896a",
     "packages": [
         {
             "name": "afigestion/plugins",
@@ -12,7 +12,7 @@
             "source": {
                 "type": "git",
                 "url": "git@github.com:alevilar/afigestion-app.git",
-                "reference": "2a42ee4484346da2019d394de9e56d98224b3cd8"
+                "reference": "6e81603cbe6b688780ad63f65da47efb774dccc6"
             },
             "type": "library",
             "license": [
@@ -27,7 +27,7 @@
             ],
             "description": "Afigestion APP donde estan los plugins",
             "homepage": "http://github.com/alevilar/afigestion-app",
-            "time": "2015-04-14 19:22:06"
+            "time": "2015-04-28 17:56:03"
         },
         {
             "name": "cakedc/migrations",
@@ -156,16 +156,16 @@
         },
         {
             "name": "composer/installers",
-            "version": "v1.0.21",
+            "version": "dev-master",
             "source": {
                 "type": "git",
                 "url": "https://github.com/composer/installers.git",
-                "reference": "d64e23fce42a4063d63262b19b8e7c0f3b5e4c45"
+                "reference": "a66f93a541c2214b4865161426b077e2b7d951de"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/composer/installers/zipball/d64e23fce42a4063d63262b19b8e7c0f3b5e4c45",
-                "reference": "d64e23fce42a4063d63262b19b8e7c0f3b5e4c45",
+                "url": "https://api.github.com/repos/composer/installers/zipball/a66f93a541c2214b4865161426b077e2b7d951de",
+                "reference": "a66f93a541c2214b4865161426b077e2b7d951de",
                 "shasum": ""
             },
             "replace": {
@@ -247,7 +247,7 @@
                 "zend",
                 "zikula"
             ],
-            "time": "2015-02-18 17:17:01"
+            "time": "2015-04-21 19:54:55"
         },
         {
             "name": "croogo/ckeditor",
@@ -291,16 +291,16 @@
         },
         {
             "name": "croogo/croogo",
-            "version": "v2.2.1",
+            "version": "v2.2.2",
             "source": {
                 "type": "git",
                 "url": "https://github.com/croogo/croogo.git",
-                "reference": "c0548f8a07596546b37cb618502ae8b8713dc6af"
+                "reference": "7e90dc9817eb5912907f8c4314a4ae9de2f9c569"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/croogo/croogo/zipball/c0548f8a07596546b37cb618502ae8b8713dc6af",
-                "reference": "c0548f8a07596546b37cb618502ae8b8713dc6af",
+                "url": "https://api.github.com/repos/croogo/croogo/zipball/7e90dc9817eb5912907f8c4314a4ae9de2f9c569",
+                "reference": "7e90dc9817eb5912907f8c4314a4ae9de2f9c569",
                 "shasum": ""
             },
             "require": {
@@ -342,7 +342,7 @@
             ],
             "description": "Croogo - Open Source CMS built for everyone",
             "homepage": "http://github.com/croogo/croogo",
-            "time": "2015-01-12 01:17:35"
+            "time": "2015-04-25 09:06:10"
         }
     ],
     "packages-dev": [
@@ -817,6 +817,7 @@
     "aliases": [],
     "minimum-stability": "stable",
     "stability-flags": {
+        "composer/installers": 20,
         "afigestion/plugins": 20,
         "phpunit/phpunit": 20
     },
