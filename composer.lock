@@ -4,15 +4,21 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "hash": "dd50d975d50830455342cc9f14c518a2",
+    "hash": "fbc2027b9d7066476bdcfdbe3d06cecc",
     "packages": [
         {
             "name": "afigestion/plugins",
             "version": "dev-master",
             "source": {
                 "type": "git",
-                "url": "git@github.com:alevilar/afigestion-app.git",
-                "reference": "bd2e6ed5c30ab9279745f924d0a5f56c5ac5a6c3"
+                "url": "https://github.com/alevilar/afigestion-app.git",
+                "reference": "44c9f8e4818dcdf104734d5b2d0e087ae51fb5b8"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/alevilar/afigestion-app/zipball/44c9f8e4818dcdf104734d5b2d0e087ae51fb5b8",
+                "reference": "44c9f8e4818dcdf104734d5b2d0e087ae51fb5b8",
+                "shasum": ""
             },
             "type": "library",
             "license": [
@@ -27,7 +33,11 @@
             ],
             "description": "Afigestion APP donde estan los plugins",
             "homepage": "http://github.com/alevilar/afigestion-app",
-            "time": "2015-06-02 03:59:12"
+            "support": {
+                "source": "https://github.com/alevilar/afigestion-app/tree/master",
+                "issues": "https://github.com/alevilar/afigestion-app/issues"
+            },
+            "time": "2015-06-02 19:02:00"
         },
         {
             "name": "cakedc/migrations",
