@@ -4,21 +4,52 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "hash": "fbc2027b9d7066476bdcfdbe3d06cecc",
+    "hash": "6d8d912dd98e089d201a5641f7662181",
     "packages": [
+        {
+            "name": "afigestion/afitheme",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/alevilar/afigestion-theme-bootstrap.git",
+                "reference": "d166a41ad56b368f38ed3a670051de9960b892b5"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/alevilar/afigestion-theme-bootstrap/zipball/d166a41ad56b368f38ed3a670051de9960b892b5",
+                "reference": "d166a41ad56b368f38ed3a670051de9960b892b5",
+                "shasum": ""
+            },
+            "require": {
+                "composer/installers": "~1.0"
+            },
+            "type": "croogo-theme",
+            "license": [
+                "proprietary"
+            ],
+            "description": "Afigestion Bootstrap theme",
+            "support": {
+                "source": "https://github.com/alevilar/afigestion-theme-bootstrap/tree/master",
+                "issues": "https://github.com/alevilar/afigestion-theme-bootstrap/issues"
+            },
+            "time": "2015-06-11 17:32:45"
+        },
         {
             "name": "afigestion/plugins",
             "version": "dev-master",
             "source": {
                 "type": "git",
                 "url": "https://github.com/alevilar/afigestion-app.git",
-                "reference": "44c9f8e4818dcdf104734d5b2d0e087ae51fb5b8"
+                "reference": "bd3a6e6aee26fea9919aaca597ed7b99f9998952"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/alevilar/afigestion-app/zipball/44c9f8e4818dcdf104734d5b2d0e087ae51fb5b8",
-                "reference": "44c9f8e4818dcdf104734d5b2d0e087ae51fb5b8",
+                "url": "https://api.github.com/repos/alevilar/afigestion-app/zipball/bd3a6e6aee26fea9919aaca597ed7b99f9998952",
+                "reference": "bd3a6e6aee26fea9919aaca597ed7b99f9998952",
                 "shasum": ""
+            },
+            "require": {
+                "php": ">=5.3.10"
             },
             "type": "library",
             "license": [
@@ -37,20 +68,20 @@
                 "source": "https://github.com/alevilar/afigestion-app/tree/master",
                 "issues": "https://github.com/alevilar/afigestion-app/issues"
             },
-            "time": "2015-06-02 19:02:00"
+            "time": "2015-06-11 17:49:36"
         },
         {
             "name": "cakedc/migrations",
-            "version": "2.3.6",
+            "version": "2.3.7",
             "source": {
                 "type": "git",
                 "url": "https://github.com/CakeDC/migrations.git",
-                "reference": "b8550a4d37e306c8aabaf3d22c20ba89226ae1c9"
+                "reference": "8e90e174530dda2abaffb675b75e105d7b5f1f3d"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/CakeDC/migrations/zipball/b8550a4d37e306c8aabaf3d22c20ba89226ae1c9",
-                "reference": "b8550a4d37e306c8aabaf3d22c20ba89226ae1c9",
+                "url": "https://api.github.com/repos/CakeDC/migrations/zipball/8e90e174530dda2abaffb675b75e105d7b5f1f3d",
+                "reference": "8e90e174530dda2abaffb675b75e105d7b5f1f3d",
                 "shasum": ""
             },
             "require": {
@@ -75,7 +106,7 @@
                 "cakephp",
                 "migrations"
             ],
-            "time": "2015-03-09 18:16:53"
+            "time": "2015-06-09 17:52:11"
         },
         {
             "name": "cakedc/search",
@@ -872,6 +903,7 @@
         "composer/installers": 20,
         "afigestion/plugins": 20,
         "cvo-technologies/croogo-bootstrap": 20,
+        "afigestion/afitheme": 20,
         "phpunit/phpunit": 20
     },
     "prefer-stable": false,

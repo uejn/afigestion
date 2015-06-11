@@ -123,6 +123,13 @@ class DATABASE_CONFIG {
 	);
 
 
+	public $test_txt_file = array(
+		'datasource' => 'Afigestion.TxtFileDatasource',
+		'folder_path' => '/var/www/html/afigestion/Vendor/afigestion/plugins/Afigestion/Test/TxtFilesForFixture',
+		'prefix' => '',
+	);
+
+
 
 	public $test = array(
 		'datasource' => 'Database/Sqlite',

@@ -27,6 +27,10 @@
         {
             "type": "vcs",
             "url": "git@github.com:alevilar/afigestion-app.git"
+        },
+        {
+            "type": "vcs",
+            "url": "git@github.com:alevilar/afigestion-theme-bootstrap.git"
         }
     ],
 	"require": {
@@ -35,7 +39,8 @@
 		"cakephp/cakephp": "~2.6",
 		"croogo/croogo": "~2.2",
 		"afigestion/plugins": "master@dev",
-		"cvo-technologies/croogo-bootstrap": "dev-master"
+		"cvo-technologies/croogo-bootstrap": "dev-master",
+		"afigestion/afitheme": "master@dev"
 	},
 	"suggest": {
 		"croogo/locale": "~1.0"
