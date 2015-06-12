@@ -12,12 +12,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/alevilar/afigestion-theme-bootstrap.git",
-                "reference": "d166a41ad56b368f38ed3a670051de9960b892b5"
+                "reference": "91b1337338caf0e77769ababa9ceb82f0850f175"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/alevilar/afigestion-theme-bootstrap/zipball/d166a41ad56b368f38ed3a670051de9960b892b5",
-                "reference": "d166a41ad56b368f38ed3a670051de9960b892b5",
+                "url": "https://api.github.com/repos/alevilar/afigestion-theme-bootstrap/zipball/91b1337338caf0e77769ababa9ceb82f0850f175",
+                "reference": "91b1337338caf0e77769ababa9ceb82f0850f175",
                 "shasum": ""
             },
             "require": {
@@ -32,7 +32,7 @@
                 "source": "https://github.com/alevilar/afigestion-theme-bootstrap/tree/master",
                 "issues": "https://github.com/alevilar/afigestion-theme-bootstrap/issues"
             },
-            "time": "2015-06-11 17:32:45"
+            "time": "2015-06-11 19:30:00"
         },
         {
             "name": "afigestion/plugins",
@@ -40,12 +40,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/alevilar/afigestion-app.git",
-                "reference": "bd3a6e6aee26fea9919aaca597ed7b99f9998952"
+                "reference": "748da5d16044c741ea4421b1c30591cb760be280"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/alevilar/afigestion-app/zipball/bd3a6e6aee26fea9919aaca597ed7b99f9998952",
-                "reference": "bd3a6e6aee26fea9919aaca597ed7b99f9998952",
+                "url": "https://api.github.com/repos/alevilar/afigestion-app/zipball/748da5d16044c741ea4421b1c30591cb760be280",
+                "reference": "748da5d16044c741ea4421b1c30591cb760be280",
                 "shasum": ""
             },
             "require": {
@@ -68,7 +68,7 @@
                 "source": "https://github.com/alevilar/afigestion-app/tree/master",
                 "issues": "https://github.com/alevilar/afigestion-app/issues"
             },
-            "time": "2015-06-11 17:49:36"
+            "time": "2015-06-11 19:38:17"
         },
         {
             "name": "cakedc/migrations",
@@ -849,16 +849,16 @@
         },
         {
             "name": "symfony/yaml",
-            "version": "v2.7.0",
+            "version": "v2.7.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/Yaml.git",
-                "reference": "4a29a5248aed4fb45f626a7bbbd330291492f5c3"
+                "reference": "9808e75c609a14f6db02f70fccf4ca4aab53c160"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/symfony/Yaml/zipball/4a29a5248aed4fb45f626a7bbbd330291492f5c3",
-                "reference": "4a29a5248aed4fb45f626a7bbbd330291492f5c3",
+                "url": "https://api.github.com/repos/symfony/Yaml/zipball/9808e75c609a14f6db02f70fccf4ca4aab53c160",
+                "reference": "9808e75c609a14f6db02f70fccf4ca4aab53c160",
                 "shasum": ""
             },
             "require": {
@@ -894,7 +894,7 @@
             ],
             "description": "Symfony Yaml Component",
             "homepage": "https://symfony.com",
-            "time": "2015-05-02 15:21:08"
+            "time": "2015-06-10 15:30:22"
         }
     ],
     "aliases": [],

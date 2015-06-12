@@ -9,5 +9,10 @@ App::uses('CroogoAppController', 'Croogo.Controller');
  * @link     http://www.croogo.org
  */
 class AppController extends CroogoAppController {
-public $components = array('DebugKit.Toolbar');
+	public $components = array('DebugKit.Toolbar');
+
+	public function beforeFilter() {
+		parent::beforeFilter();
+		$this->Auth->logoutRedirect = array('admin' => true, 'plugin' => 'users', 'controller'=>'users', 'action' => 'login');
+	}
 }
