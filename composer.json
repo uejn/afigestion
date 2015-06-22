@@ -31,6 +31,10 @@
         {
             "type": "vcs",
             "url": "git@github.com:alevilar/afigestion-theme-bootstrap.git"
+        },
+        {
+        	"type": "vcs",
+            "url": "git@github.com:alevilar/Tbs-admin.git"
         }
     ],
 	"require": {
@@ -40,10 +44,9 @@
 		"croogo/croogo": "~2.2",
 		"afigestion/plugins": "master@dev",
 		"cvo-technologies/croogo-bootstrap": "dev-master",
-		"afigestion/afitheme": "master@dev"
-	},
-	"suggest": {
-		"croogo/locale": "~1.0"
+		"afigestion/afitheme": "master@dev",
+		"croogo/locale": "~1.0",
+		"afigestion/tbs-admin": "master@dev"
 	},
 	"require-dev": {
 		"phpunit/phpunit": "3.7.*@dev",
