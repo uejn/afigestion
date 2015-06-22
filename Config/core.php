@@ -26,3 +26,13 @@ if (file_exists(APP . 'Config' . DS . 'croogo.php')) {
 		)
 	));
 }
+
+
+/**
+*
+*	Cantidad de registros a migrar
+*	Si se coloca false o 0 migra a todos
+*
+*	Se usa como "LIMIT" en la condicion del find
+**/
+Configure::write('Afigestion.AbstractMigratorLimit', false);
