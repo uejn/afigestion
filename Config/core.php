@@ -38,3 +38,17 @@ if (file_exists(APP . 'Config' . DS . 'croogo.php')) {
 Configure::write('Afigestion.AbstractMigratorLimit', false);
 
 Configure::write('Config.language', 'spa');
+
+
+Configure::write('DbTmpMig.migrators', array(
+									'Menu28AfiliadosDb',
+									'Menu28PadronDb',								
+									'NewsisPadronDb',
+									'NewsisAfiliadosDb',
+									'Menu28PadronTxt',								
+									'NewsisConsejoPadronTxt',
+									'NewsisCortePadronTxt',
+									'NewsisDefensoriaPadronTxt',
+									'NewsisProcuracionPadronTxt',					
+							)
+);
