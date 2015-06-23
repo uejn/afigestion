@@ -36,3 +36,5 @@ if (file_exists(APP . 'Config' . DS . 'croogo.php')) {
 *	Se usa como "LIMIT" en la condicion del find
 **/
 Configure::write('Afigestion.AbstractMigratorLimit', false);
+
+Configure::write('Config.language', 'spa');
