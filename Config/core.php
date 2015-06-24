@@ -50,5 +50,4 @@ Configure::write('DbTmpMig.migrators', array(
 									'NewsisCortePadronTxt',
 									'NewsisDefensoriaPadronTxt',
 									'NewsisProcuracionPadronTxt',					
-							)
-);
+							));

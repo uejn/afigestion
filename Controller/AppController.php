@@ -20,6 +20,6 @@ class AppController extends CroogoAppController {
 
 	public function beforeFilter() {
 		parent::beforeFilter();
-		$this->Auth->logoutRedirect = array('admin' => true, 'plugin' => 'users', 'controller'=>'users', 'action' => 'login');
+		$this->Auth->logoutRedirect = array('admin' => false, 'plugin' => 'users', 'controller'=>'users', 'action' => 'login');
 	}
 }

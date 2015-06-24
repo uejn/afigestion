@@ -40,12 +40,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/alevilar/afigestion-app.git",
-                "reference": "455c69573bb1f80348db43a720f93a866d563798"
+                "reference": "c5a545d767c61ce33fc4544b5402efcd23f2f226"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/alevilar/afigestion-app/zipball/455c69573bb1f80348db43a720f93a866d563798",
-                "reference": "455c69573bb1f80348db43a720f93a866d563798",
+                "url": "https://api.github.com/repos/alevilar/afigestion-app/zipball/c5a545d767c61ce33fc4544b5402efcd23f2f226",
+                "reference": "c5a545d767c61ce33fc4544b5402efcd23f2f226",
                 "shasum": ""
             },
             "require": {
@@ -68,7 +68,7 @@
                 "source": "https://github.com/alevilar/afigestion-app/tree/master",
                 "issues": "https://github.com/alevilar/afigestion-app/issues"
             },
-            "time": "2015-06-22 19:36:32"
+            "time": "2015-06-23 14:27:28"
         },
         {
             "name": "cakedc/migrations",
