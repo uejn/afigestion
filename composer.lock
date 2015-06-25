@@ -12,12 +12,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/alevilar/afigestion-theme-bootstrap.git",
-                "reference": "26bc25b6cff0e02176a8f5bd674bac0a9157d1aa"
+                "reference": "c79e1eea1026331539ccb8861adb6f9d9d5091dd"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/alevilar/afigestion-theme-bootstrap/zipball/26bc25b6cff0e02176a8f5bd674bac0a9157d1aa",
-                "reference": "26bc25b6cff0e02176a8f5bd674bac0a9157d1aa",
+                "url": "https://api.github.com/repos/alevilar/afigestion-theme-bootstrap/zipball/c79e1eea1026331539ccb8861adb6f9d9d5091dd",
+                "reference": "c79e1eea1026331539ccb8861adb6f9d9d5091dd",
                 "shasum": ""
             },
             "require": {
@@ -32,7 +32,7 @@
                 "source": "https://github.com/alevilar/afigestion-theme-bootstrap/tree/master",
                 "issues": "https://github.com/alevilar/afigestion-theme-bootstrap/issues"
             },
-            "time": "2015-06-22 13:20:40"
+            "time": "2015-06-24 17:07:12"
         },
         {
             "name": "afigestion/plugins",
@@ -40,12 +40,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/alevilar/afigestion-app.git",
-                "reference": "c5a545d767c61ce33fc4544b5402efcd23f2f226"
+                "reference": "fba76682b336482edca335a919b68a23fcc96913"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/alevilar/afigestion-app/zipball/c5a545d767c61ce33fc4544b5402efcd23f2f226",
-                "reference": "c5a545d767c61ce33fc4544b5402efcd23f2f226",
+                "url": "https://api.github.com/repos/alevilar/afigestion-app/zipball/fba76682b336482edca335a919b68a23fcc96913",
+                "reference": "fba76682b336482edca335a919b68a23fcc96913",
                 "shasum": ""
             },
             "require": {
@@ -68,7 +68,7 @@
                 "source": "https://github.com/alevilar/afigestion-app/tree/master",
                 "issues": "https://github.com/alevilar/afigestion-app/issues"
             },
-            "time": "2015-06-23 14:27:28"
+            "time": "2015-06-25 04:23:25"
         },
         {
             "name": "cakedc/migrations",
