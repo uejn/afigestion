@@ -4,11 +4,11 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "hash": "141816a1b6b17233ff6907f42f11c3c5",
+    "hash": "5a5d71f79334b8aae23464b361e6fdf0",
     "packages": [
         {
             "name": "afigestion/afitheme",
-            "version": "dev-master",
+            "version": "1.0.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/alevilar/afigestion-theme-bootstrap.git",
@@ -36,16 +36,16 @@
         },
         {
             "name": "afigestion/plugins",
-            "version": "dev-master",
+            "version": "1.0.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/alevilar/afigestion-app.git",
-                "reference": "fba76682b336482edca335a919b68a23fcc96913"
+                "reference": "ac6ce8fb307324907afd6fcfc1c2da7c562131f6"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/alevilar/afigestion-app/zipball/fba76682b336482edca335a919b68a23fcc96913",
-                "reference": "fba76682b336482edca335a919b68a23fcc96913",
+                "url": "https://api.github.com/repos/alevilar/afigestion-app/zipball/ac6ce8fb307324907afd6fcfc1c2da7c562131f6",
+                "reference": "ac6ce8fb307324907afd6fcfc1c2da7c562131f6",
                 "shasum": ""
             },
             "require": {
@@ -65,10 +65,10 @@
             "description": "Afigestion APP donde estan los plugins",
             "homepage": "http://github.com/alevilar/afigestion-app",
             "support": {
-                "source": "https://github.com/alevilar/afigestion-app/tree/master",
+                "source": "https://github.com/alevilar/afigestion-app/tree/1.0.0",
                 "issues": "https://github.com/alevilar/afigestion-app/issues"
             },
-            "time": "2015-06-25 04:23:25"
+            "time": "2015-06-25 20:47:29"
         },
         {
             "name": "cakedc/migrations",
@@ -238,16 +238,16 @@
         },
         {
             "name": "composer/installers",
-            "version": "dev-master",
+            "version": "v1.0.21",
             "source": {
                 "type": "git",
                 "url": "https://github.com/composer/installers.git",
-                "reference": "e420b539e8d7b38b7c6f3f99dccc0386bd3dfe41"
+                "reference": "d64e23fce42a4063d63262b19b8e7c0f3b5e4c45"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/composer/installers/zipball/e420b539e8d7b38b7c6f3f99dccc0386bd3dfe41",
-                "reference": "e420b539e8d7b38b7c6f3f99dccc0386bd3dfe41",
+                "url": "https://api.github.com/repos/composer/installers/zipball/d64e23fce42a4063d63262b19b8e7c0f3b5e4c45",
+                "reference": "d64e23fce42a4063d63262b19b8e7c0f3b5e4c45",
                 "shasum": ""
             },
             "replace": {
@@ -329,7 +329,7 @@
                 "zend",
                 "zikula"
             ],
-            "time": "2015-06-13 15:30:38"
+            "time": "2015-02-18 17:17:01"
         },
         {
             "name": "croogo/ckeditor",
@@ -978,10 +978,7 @@
     "aliases": [],
     "minimum-stability": "stable",
     "stability-flags": {
-        "composer/installers": 20,
-        "afigestion/plugins": 20,
         "cvo-technologies/croogo-bootstrap": 20,
-        "afigestion/afitheme": 20,
         "croogo/locale": 20,
         "phpunit/phpunit": 20
     },
