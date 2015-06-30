@@ -41,10 +41,10 @@ Configure::write('Config.language', 'spa');
 
 
 Configure::write('DbTmpMig.migrators', array(
+									//'Menu28PadronDb',								
 									'Menu28AfiliadosDb',
-									'Menu28PadronDb',								
-									'NewsisPadronDb',
 									'NewsisAfiliadosDb',
+									'NewsisPadronDb',
 									'Menu28PadronTxt',								
 									'NewsisConsejoPadronTxt',
 									'NewsisCortePadronTxt',

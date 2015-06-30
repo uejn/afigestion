@@ -82,5 +82,4 @@ CakeLog::config('error', array(
 
 
 CakePlugin::load('Croogo', array('bootstrap' => true));
-CakePlugin::load('DebugKit');
 
