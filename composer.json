@@ -1,5 +1,5 @@
 {
-	"name": "croogo/app",
+	"name": "afigestion/app",
 	"description": "Croogo skeleton app",
 	"homepage": "http://github.com/croogo/app",
 	"license": "MIT",
@@ -35,12 +35,12 @@
     ],
 	"require": {
 		"php": ">=5.3.10",
-		"composer/installers": "1.0.*@dev",
+		"composer/installers": "~1.0",
 		"cakephp/cakephp": "~2.6",
 		"croogo/croogo": "~2.2",
-		"afigestion/plugins": "master@dev",
+		"afigestion/plugins": "~1.0",
 		"cvo-technologies/croogo-bootstrap": "dev-master",
-		"afigestion/afitheme": "master@dev",
+		"afigestion/afitheme": "~1.0",
 		"croogo/locale": "dev-master",
 		"codaxis/cakephp-bootstrap3-helpers": "1.1"
 	},
