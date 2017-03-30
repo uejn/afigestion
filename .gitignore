@@ -1,5 +1,6 @@
 # App
 Config/croogo.php
+Config/afigestion.php
 Config/database.php
 Config/settings.json
 webroot/uploads/
@@ -7,6 +8,7 @@ Plugin/
 Vendor/
 *.bak
 *.swp
+.phpintel/
 
 # Packages
 cookbooks/
