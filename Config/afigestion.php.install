@@ -60,3 +60,6 @@
             //'NewsisCuotasDb',
             //'BancoCiudadTxt'
         ));
+
+
+        Configure::write('Cache.defaultConfig', array());
