@@ -75,6 +75,13 @@
  * database.  Uses database default.
  *
  */
+
+
+define("DIRECCION_PATH_TXT_PADRON", ROOT . DS . APP_DIR . DS . 'Vendor/afigestion/plugins/Afigestion/Test/TxtFilesForFixture/padron/');
+
+define("DIRECCION_PATH_TXT_DESCUENTOS", ROOT . DS . APP_DIR . DS . 'Vendor/afigestion/plugins/Afigestion/Test/TxtFilesForFixture/descuentos/');
+
+
 class DATABASE_CONFIG {
 
 	public $default = array(
@@ -117,16 +124,33 @@ class DATABASE_CONFIG {
 	);
 
 
-	public $txt_file = array(
+	public $txt_file_padron = array(
 		'datasource' => 'Afigestion.TxtFileDatasource',
-		'folder_path' => '/var/www/html/afigestion/tmp/migration_files/',
+		'folder_path' => 'PATH',
+		'file_mig'=>'PadronFileMig',
+		'prefix' => '',
+	);
+
+	public $txt_file_descuentos = array(
+		'datasource' => 'Afigestion.TxtFileDatasource',
+		'folder_path' => 'PATH',
+		'file_mig'=>'DescuentoFileMig',
+		'prefix' => '',
 	);
 
 
-	public $test_txt_file = array(
+	public $test_txt_file_padron = array(
 		'datasource' => 'Afigestion.TxtFileDatasource',
-		'folder_path' => '/var/www/html/afigestion/Vendor/afigestion/plugins/Afigestion/Test/TxtFilesForFixture',
+		'folder_path' => DIRECCION_PATH_TXT_PADRON,
+		'file_mig'=>'PadronFileMig',
 		'prefix' => '',
+	);
+
+	public $test_txt_file_descuentos = array(
+		'datasource' => 'Afigestion.TxtFileDatasource',
+		'folder_path' => DIRECCION_PATH_TXT_DESCUENTOS,
+		'prefix' => '',
+		'file_mig'=>'DescuentoFileMig',
 	);
 
 
