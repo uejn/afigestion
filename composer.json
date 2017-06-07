@@ -42,10 +42,10 @@
                 "php": ">=5.3.10",
                 "composer/installers": "~1.0",
                 "cakephp/cakephp": "~2.9",
-                "croogo/croogo": "~2.2",
+                "croogo/croogo": "~2.3",
                 "afigestion/plugins": "dev-master",
                 "cvo-technologies/croogo-bootstrap": "~1.0",
-                "afigestion/afitheme": "~1.0",
+                "afigestion/afitheme": "dev-master",
                 "croogo/locale": "dev-master",
                 "codaxis/cakephp-bootstrap3-helpers": "1.1"
         },

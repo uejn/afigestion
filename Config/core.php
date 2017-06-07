@@ -34,3 +34,5 @@ if (file_exists(APP . 'Config' . DS . 'afigestion.php')) {
 } else {
    throw new CakeException("no se encuentra el archivo de configuracion de Config/afigestion.php, debera crearlo aunque este vacio");
 }
+
+
