@@ -1,59 +1,63 @@
 {
     "_readme": [
         "This file locks the dependencies of your project to a known state",
-        "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
+        "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "hash": "ba14d40716faa8356593acefeab174e1",
-    "content-hash": "5de7d8178bdcd3f606299ea9e784057c",
+    "content-hash": "ce35bf7ce3f756db92bfa95503132995",
     "packages": [
         {
             "name": "afigestion/afitheme",
             "version": "dev-master",
             "source": {
                 "type": "git",
-                "url": "https://github.com/alevilar/afigestion-theme-bootstrap.git",
-                "reference": "b45cca00a867bcfcffae6a9bbd35f59504d6872b"
+                "url": "https://github.com/uejn/afigestion-theme-bootstrap.git",
+                "reference": "6dcaad2e53d618202bc6d3df8884fc345dc8193c"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/alevilar/afigestion-theme-bootstrap/zipball/b45cca00a867bcfcffae6a9bbd35f59504d6872b",
-                "reference": "b45cca00a867bcfcffae6a9bbd35f59504d6872b",
+                "url": "https://api.github.com/repos/uejn/afigestion-theme-bootstrap/zipball/6dcaad2e53d618202bc6d3df8884fc345dc8193c",
+                "reference": "6dcaad2e53d618202bc6d3df8884fc345dc8193c",
                 "shasum": ""
             },
             "require": {
                 "composer/installers": "~1.0"
             },
+            "default-branch": true,
             "type": "croogo-theme",
             "license": [
                 "proprietary"
             ],
             "description": "Afigestion Bootstrap theme",
             "support": {
-                "source": "https://github.com/alevilar/afigestion-theme-bootstrap/tree/master",
-                "issues": "https://github.com/alevilar/afigestion-theme-bootstrap/issues"
+                "source": "https://github.com/uejn/afigestion-theme-bootstrap/tree/master",
+                "issues": "https://github.com/uejn/afigestion-theme-bootstrap/issues"
             },
-            "time": "2017-03-22 11:47:56"
+            "time": "2024-04-22T21:15:03+00:00"
         },
         {
             "name": "afigestion/plugins",
             "version": "dev-master",
             "source": {
                 "type": "git",
-                "url": "git@github.com:alevilar/afigestion-app.git",
-                "reference": "5347cc7cf2b1da4c04008ae586cb625265b84ed1"
+                "url": "git@github.com:uejn/afigestion-app.git",
+                "reference": "c4f456d56e386af83d7db0a61c8d01423945b4f0"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/alevilar/afigestion-app/zipball/5347cc7cf2b1da4c04008ae586cb625265b84ed1",
-                "reference": "5347cc7cf2b1da4c04008ae586cb625265b84ed1",
+                "url": "https://api.github.com/repos/uejn/afigestion-app/zipball/c4f456d56e386af83d7db0a61c8d01423945b4f0",
+                "reference": "c4f456d56e386af83d7db0a61c8d01423945b4f0",
                 "shasum": ""
             },
             "require": {
                 "cakephp/localized": "2.4.*",
-                "php": ">=5.3.10",
+                "mikehaertl/phpwkhtmltopdf": "^2.5",
+                "paxapos/cakepdf": "1.0.5",
+                "php": ">=7.1",
+                "phpoffice/phpexcel": "1.8.2",
                 "robwilkerson/cakephp-audit-log-plugin": "2.1.*"
             },
+            "default-branch": true,
             "type": "library",
             "license": [
                 "MIT"
@@ -68,28 +72,28 @@
             "description": "Afigestion APP donde estan los plugins",
             "homepage": "http://github.com/alevilar/afigestion-app",
             "support": {
-                "source": "https://github.com/alevilar/afigestion-app/tree/master",
-                "issues": "https://github.com/alevilar/afigestion-app/issues"
+                "source": "https://github.com/uejn/afigestion-app/tree/master",
+                "issues": "https://github.com/uejn/afigestion-app/issues"
             },
-            "time": "2017-06-14 14:23:23"
+            "time": "2025-04-23T16:36:12+00:00"
         },
         {
             "name": "cakedc/migrations",
-            "version": "2.5.1",
+            "version": "2.6",
             "source": {
                 "type": "git",
                 "url": "https://github.com/CakeDC/migrations.git",
-                "reference": "b1180762ebc6402b67b9ccae13f1f9ce6ccecf65"
+                "reference": "988730b04933d5f14bc09e808654ffd32b720c63"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/CakeDC/migrations/zipball/b1180762ebc6402b67b9ccae13f1f9ce6ccecf65",
-                "reference": "b1180762ebc6402b67b9ccae13f1f9ce6ccecf65",
+                "url": "https://api.github.com/repos/CakeDC/migrations/zipball/988730b04933d5f14bc09e808654ffd32b720c63",
+                "reference": "988730b04933d5f14bc09e808654ffd32b720c63",
                 "shasum": ""
             },
             "require": {
                 "composer/installers": "*",
-                "php": ">=5.3.0"
+                "php": ">=5.6.0"
             },
             "type": "cakephp-plugin",
             "notification-url": "https://packagist.org/downloads/",
@@ -109,7 +113,15 @@
                 "cakephp",
                 "migrations"
             ],
-            "time": "2017-03-22 18:18:22"
+            "support": {
+                "email": "team@cakedc.com",
+                "forum": "http://stackoverflow.com/tags/cakedc",
+                "irc": "irc://irc.freenode.org/cakephp",
+                "issues": "https://github.com/CakeDC/migrations/issues",
+                "source": "https://github.com/CakeDC/migrations",
+                "wiki": "https://github.com/CakeDC/migrations/blob/master/Docs/Home.md"
+            },
+            "time": "2019-08-23T15:02:26+00:00"
         },
         {
             "name": "cakedc/search",
@@ -153,29 +165,41 @@
                 "prg",
                 "search"
             ],
-            "time": "2014-08-07 18:13:40"
+            "support": {
+                "email": "team@cakedc.com",
+                "forum": "http://stackoverflow.com/tags/cakedc",
+                "irc": "irc://irc.freenode.org/cakephp",
+                "issues": "https://github.com/CakeDC/search/issues",
+                "source": "https://github.com/CakeDC/search",
+                "wiki": "https://github.com/CakeDC/search/blob/master/Docs/Home.md"
+            },
+            "abandoned": true,
+            "time": "2014-08-07T18:13:40+00:00"
         },
         {
             "name": "cakephp/cakephp",
-            "version": "2.9.9",
+            "version": "2.10.24",
             "source": {
                 "type": "git",
                 "url": "https://github.com/cakephp/cakephp.git",
-                "reference": "bfd2d21d782a69626bcf1ae2d22aad6e565fb29c"
+                "reference": "cf14e6546ec44e3369e3531add11fdb946656280"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/cakephp/cakephp/zipball/bfd2d21d782a69626bcf1ae2d22aad6e565fb29c",
-                "reference": "bfd2d21d782a69626bcf1ae2d22aad6e565fb29c",
+                "url": "https://api.github.com/repos/cakephp/cakephp/zipball/cf14e6546ec44e3369e3531add11fdb946656280",
+                "reference": "cf14e6546ec44e3369e3531add11fdb946656280",
                 "shasum": ""
             },
             "require": {
-                "ext-mcrypt": "*",
-                "php": ">=5.3.0"
+                "php": ">=5.3.0,<8.0.0"
             },
             "require-dev": {
                 "cakephp/cakephp-codesniffer": "^1.0.0",
-                "phpunit/phpunit": "3.7.*"
+                "phpunit/phpunit": "^3.7"
+            },
+            "suggest": {
+                "ext-mcrypt": "You need to install ext-openssl or ext-mcrypt to use AES-256 encryption",
+                "ext-openssl": "You need to install ext-openssl or ext-mcrypt to use AES-256 encryption"
             },
             "bin": [
                 "lib/Cake/Console/cake"
@@ -196,7 +220,13 @@
             "keywords": [
                 "framework"
             ],
-            "time": "2017-05-26 01:15:23"
+            "support": {
+                "forum": "https://stackoverflow.com/tags/cakephp",
+                "irc": "irc://irc.freenode.org/cakephp",
+                "issues": "https://github.com/cakephp/cakephp/issues",
+                "source": "https://github.com/cakephp/cakephp"
+            },
+            "time": "2020-12-16T02:47:53+00:00"
         },
         {
             "name": "cakephp/localized",
@@ -241,7 +271,13 @@
                 "l10n",
                 "localized"
             ],
-            "time": "2014-12-01 19:14:06"
+            "support": {
+                "forum": "http://stackoverflow.com/tags/cakephp",
+                "irc": "irc://irc.freenode.org/cakephp",
+                "issues": "https://github.com/cakephp/localized/issues",
+                "source": "https://github.com/cakephp/localized"
+            },
+            "time": "2014-12-01T19:14:06+00:00"
         },
         {
             "name": "codaxis/cakephp-bootstrap3-helpers",
@@ -271,8 +307,7 @@
             "authors": [
                 {
                     "name": "augusto-cdxs",
-                    "email": "augusto@codaxis.com",
-                    "homepage": "http://codaxis.com"
+                    "email": "augusto@codaxis.com"
                 }
             ],
             "description": "CakePHP highly configurable helpers for Bootstrap 3 framework.",
@@ -282,38 +317,46 @@
                 "cakephp",
                 "helper"
             ],
-            "time": "2014-07-04 21:40:53"
+            "support": {
+                "issues": "https://github.com/ajfranzoia/cakephp-bootstrap3-helpers/issues",
+                "source": "https://github.com/ajfranzoia/cakephp-bootstrap3-helpers/tree/1.1"
+            },
+            "time": "2014-07-04T21:40:53+00:00"
         },
         {
             "name": "composer/installers",
-            "version": "v1.3.0",
+            "version": "v1.12.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/composer/installers.git",
-                "reference": "79ad876c7498c0bbfe7eed065b8651c93bfd6045"
+                "reference": "d20a64ed3c94748397ff5973488761b22f6d3f19"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/composer/installers/zipball/79ad876c7498c0bbfe7eed065b8651c93bfd6045",
-                "reference": "79ad876c7498c0bbfe7eed065b8651c93bfd6045",
+                "url": "https://api.github.com/repos/composer/installers/zipball/d20a64ed3c94748397ff5973488761b22f6d3f19",
+                "reference": "d20a64ed3c94748397ff5973488761b22f6d3f19",
                 "shasum": ""
             },
             "require": {
-                "composer-plugin-api": "^1.0"
+                "composer-plugin-api": "^1.0 || ^2.0"
             },
             "replace": {
                 "roundcube/plugin-installer": "*",
                 "shama/baton": "*"
             },
             "require-dev": {
-                "composer/composer": "1.0.*@dev",
-                "phpunit/phpunit": "4.1.*"
+                "composer/composer": "1.6.* || ^2.0",
+                "composer/semver": "^1 || ^3",
+                "phpstan/phpstan": "^0.12.55",
+                "phpstan/phpstan-phpunit": "^0.12.16",
+                "symfony/phpunit-bridge": "^4.2 || ^5",
+                "symfony/process": "^2.3"
             },
             "type": "composer-plugin",
             "extra": {
                 "class": "Composer\\Installers\\Plugin",
                 "branch-alias": {
-                    "dev-master": "1.0-dev"
+                    "dev-main": "1.x-dev"
                 }
             },
             "autoload": {
@@ -341,7 +384,9 @@
                 "Hurad",
                 "ImageCMS",
                 "Kanboard",
+                "Lan Management System",
                 "MODX Evo",
+                "MantisBT",
                 "Mautic",
                 "Maya",
                 "OXID",
@@ -349,7 +394,9 @@
                 "Porto",
                 "RadPHP",
                 "SMF",
+                "Starbug",
                 "Thelia",
+                "Whmcs",
                 "WolfCMS",
                 "agl",
                 "aimeos",
@@ -364,6 +411,7 @@
                 "croogo",
                 "dokuwiki",
                 "drupal",
+                "eZ Platform",
                 "elgg",
                 "expressionengine",
                 "fuelphp",
@@ -371,32 +419,60 @@
                 "installer",
                 "itop",
                 "joomla",
+                "known",
                 "kohana",
                 "laravel",
                 "lavalite",
                 "lithium",
                 "magento",
+                "majima",
                 "mako",
                 "mediawiki",
+                "miaoxing",
                 "modulework",
+                "modx",
                 "moodle",
+                "osclass",
+                "pantheon",
                 "phpbb",
                 "piwik",
                 "ppi",
+                "processwire",
                 "puppet",
+                "pxcms",
                 "reindex",
                 "roundcube",
                 "shopware",
                 "silverstripe",
                 "sydes",
+                "sylius",
                 "symfony",
+                "tastyigniter",
                 "typo3",
                 "wordpress",
                 "yawik",
                 "zend",
                 "zikula"
             ],
-            "time": "2017-04-24 06:37:16"
+            "support": {
+                "issues": "https://github.com/composer/installers/issues",
+                "source": "https://github.com/composer/installers/tree/v1.12.0"
+            },
+            "funding": [
+                {
+                    "url": "https://packagist.com",
+                    "type": "custom"
+                },
+                {
+                    "url": "https://github.com/composer",
+                    "type": "github"
+                },
+                {
+                    "url": "https://tidelift.com/funding/github/packagist/composer/composer",
+                    "type": "tidelift"
+                }
+            ],
+            "time": "2021-09-13T08:19:44+00:00"
         },
         {
             "name": "croogo/ckeditor",
@@ -436,20 +512,24 @@
             ],
             "description": "Integrate Ckeditor with Croogo",
             "homepage": "http://github.com/croogo/Ckeditor",
-            "time": "2014-10-16 06:21:58"
+            "support": {
+                "issues": "https://github.com/croogo/Ckeditor/issues",
+                "source": "https://github.com/croogo/Ckeditor/tree/master"
+            },
+            "time": "2014-10-16T06:21:58+00:00"
         },
         {
             "name": "croogo/croogo",
-            "version": "v2.3.2",
+            "version": "2.3.3",
             "source": {
                 "type": "git",
                 "url": "https://github.com/croogo/croogo.git",
-                "reference": "83ed08a60eba239f94a00c8742ab30169c77992f"
+                "reference": "6f82e6c096f47f38dba719ff1c9988845f99f023"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/croogo/croogo/zipball/83ed08a60eba239f94a00c8742ab30169c77992f",
-                "reference": "83ed08a60eba239f94a00c8742ab30169c77992f",
+                "url": "https://api.github.com/repos/croogo/croogo/zipball/6f82e6c096f47f38dba719ff1c9988845f99f023",
+                "reference": "6f82e6c096f47f38dba719ff1c9988845f99f023",
                 "shasum": ""
             },
             "require": {
@@ -474,14 +554,14 @@
             ],
             "authors": [
                 {
-                    "name": "Rachman Chavik",
-                    "email": "contact@xintesa.com",
-                    "homepage": "http://xintesa.com"
-                },
-                {
                     "name": "Fahad Ibnay Heylall",
                     "email": "contact@fahad19.com",
                     "homepage": "http://fahad19.com"
+                },
+                {
+                    "name": "Rachman Chavik",
+                    "email": "contact@xintesa.com",
+                    "homepage": "http://xintesa.com"
                 },
                 {
                     "name": "Kyle Robinson Young",
@@ -496,62 +576,23 @@
             ],
             "description": "Croogo - Open Source CMS built for everyone",
             "homepage": "http://github.com/croogo/croogo",
-            "time": "2016-12-18 02:56:54"
-        },
-        {
-            "name": "croogo/locale",
-            "version": "dev-master",
-            "source": {
-                "type": "git",
-                "url": "https://github.com/croogo/locale.git",
-                "reference": "954bbdb09815ea59db9c5c4df5e2710973abeaf9"
+            "support": {
+                "issues": "https://github.com/croogo/croogo/issues",
+                "source": "https://github.com/croogo/croogo/tree/2.3.3"
             },
-            "dist": {
-                "type": "zip",
-                "url": "https://api.github.com/repos/croogo/locale/zipball/954bbdb09815ea59db9c5c4df5e2710973abeaf9",
-                "reference": "954bbdb09815ea59db9c5c4df5e2710973abeaf9",
-                "shasum": ""
-            },
-            "require": {
-                "croogo/croogo": "~2.2"
-            },
-            "type": "library",
-            "notification-url": "https://packagist.org/downloads/",
-            "license": [
-                "MIT"
-            ],
-            "authors": [
-                {
-                    "name": "Rachman Chavik",
-                    "email": "contact@xintesa.com",
-                    "homepage": "http://xintesa.com"
-                },
-                {
-                    "name": "Fahad Ibnay Heylall",
-                    "email": "contact@fahad19.com",
-                    "homepage": "http://fahad19.com"
-                },
-                {
-                    "name": "Kyle Robinson Young",
-                    "email": "kyle@dontkry.com",
-                    "homepage": "http://dontkry.com"
-                }
-            ],
-            "description": "Croogo - Translations",
-            "homepage": "http://github.com/croogo/locale",
-            "time": "2015-07-23 08:13:09"
+            "time": "2017-10-09T05:00:08+00:00"
         },
         {
             "name": "cvo-technologies/croogo-bootstrap",
             "version": "1.0.0",
             "source": {
                 "type": "git",
-                "url": "https://github.com/alevilar/croogo-bootstrap-theme.git",
+                "url": "https://github.com/uejn/croogo-bootstrap-theme.git",
                 "reference": "20c0b9253a5ee70715dba163480112e0fd1f94d8"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/alevilar/croogo-bootstrap-theme/zipball/20c0b9253a5ee70715dba163480112e0fd1f94d8",
+                "url": "https://api.github.com/repos/uejn/croogo-bootstrap-theme/zipball/20c0b9253a5ee70715dba163480112e0fd1f94d8",
                 "reference": "20c0b9253a5ee70715dba163480112e0fd1f94d8",
                 "shasum": ""
             },
@@ -582,9 +623,317 @@
             ],
             "description": "CVO-Technologies Bootstrap theme",
             "support": {
-                "source": "https://github.com/alevilar/croogo-bootstrap-theme/tree/1.0.0"
+                "source": "https://github.com/uejn/croogo-bootstrap-theme/tree/1.0.0"
             },
-            "time": "2014-11-28 09:49:04"
+            "time": "2014-11-28T09:49:04+00:00"
+        },
+        {
+            "name": "marianovdb/cakephp-audit-log-plugin",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/Marianovdb/CakePHP-Audit-Log-Plugin.git",
+                "reference": "656dc9316dab13dff37efb0fde1e08c5447a7f12"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/Marianovdb/CakePHP-Audit-Log-Plugin/zipball/656dc9316dab13dff37efb0fde1e08c5447a7f12",
+                "reference": "656dc9316dab13dff37efb0fde1e08c5447a7f12",
+                "shasum": ""
+            },
+            "require": {
+                "composer/installers": "^1.0",
+                "php": ">=5.3.0"
+            },
+            "require-dev": {
+                "cakephp/cakephp-codesniffer": "^1.0.0"
+            },
+            "default-branch": true,
+            "type": "cakephp-plugin",
+            "extra": {
+                "installer-name": "AuditLog"
+            },
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Rob Wilkerson",
+                    "homepage": "http://robwilkerson.org/",
+                    "role": "Original autor"
+                },
+                {
+                    "name": "Other contributors",
+                    "homepage": "https://github.com/robwilkerson/CakePHP-Audit-Log-Plugin/graphs/contributors",
+                    "role": "Contributors"
+                },
+                {
+                    "name": "Mariano De Bernardin",
+                    "homepage": "https://github.com/Marianovdb",
+                    "role": "Fork of plugin"
+                }
+            ],
+            "description": "Audit Plugin for CakePHP",
+            "homepage": "https://github.com/Marianovdb/CakePHP-Audit-Log-Plugin",
+            "keywords": [
+                "audit",
+                "audit trail",
+                "auditlog",
+                "cakephp",
+                "fork",
+                "log"
+            ],
+            "support": {
+                "source": "https://github.com/Marianovdb/CakePHP-Audit-Log-Plugin",
+                "issues": "https://github.com/Marianovdb/CakePHP-Audit-Log-Plugin/issues"
+            },
+            "time": "2025-03-07T17:11:56+00:00"
+        },
+        {
+            "name": "mikehaertl/php-shellcommand",
+            "version": "1.7.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/mikehaertl/php-shellcommand.git",
+                "reference": "e79ea528be155ffdec6f3bf1a4a46307bb49e545"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/mikehaertl/php-shellcommand/zipball/e79ea528be155ffdec6f3bf1a4a46307bb49e545",
+                "reference": "e79ea528be155ffdec6f3bf1a4a46307bb49e545",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">= 5.3.0"
+            },
+            "require-dev": {
+                "phpunit/phpunit": ">4.0 <=9.4"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "mikehaertl\\shellcommand\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Michael Härtl",
+                    "email": "haertl.mike@gmail.com"
+                }
+            ],
+            "description": "An object oriented interface to shell commands",
+            "keywords": [
+                "shell"
+            ],
+            "support": {
+                "issues": "https://github.com/mikehaertl/php-shellcommand/issues",
+                "source": "https://github.com/mikehaertl/php-shellcommand/tree/1.7.0"
+            },
+            "time": "2023-04-19T08:25:22+00:00"
+        },
+        {
+            "name": "mikehaertl/php-tmpfile",
+            "version": "1.3.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/mikehaertl/php-tmpfile.git",
+                "reference": "a5392bed91f67e2849a7cb24075d346468e1b1a8"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/mikehaertl/php-tmpfile/zipball/a5392bed91f67e2849a7cb24075d346468e1b1a8",
+                "reference": "a5392bed91f67e2849a7cb24075d346468e1b1a8",
+                "shasum": ""
+            },
+            "require-dev": {
+                "php": ">=5.3.0",
+                "phpunit/phpunit": ">4.0 <=9.4"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "mikehaertl\\tmp\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Michael Härtl",
+                    "email": "haertl.mike@gmail.com"
+                }
+            ],
+            "description": "A convenience class for temporary files",
+            "keywords": [
+                "files"
+            ],
+            "support": {
+                "issues": "https://github.com/mikehaertl/php-tmpfile/issues",
+                "source": "https://github.com/mikehaertl/php-tmpfile/tree/1.3.0"
+            },
+            "time": "2024-10-14T16:12:48+00:00"
+        },
+        {
+            "name": "mikehaertl/phpwkhtmltopdf",
+            "version": "2.5.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/mikehaertl/phpwkhtmltopdf.git",
+                "reference": "17ee71341591415d942774eda2c98d8ba7ea9e90"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/mikehaertl/phpwkhtmltopdf/zipball/17ee71341591415d942774eda2c98d8ba7ea9e90",
+                "reference": "17ee71341591415d942774eda2c98d8ba7ea9e90",
+                "shasum": ""
+            },
+            "require": {
+                "mikehaertl/php-shellcommand": "^1.5.0",
+                "mikehaertl/php-tmpfile": "^1.2.1",
+                "php": ">=5.0.0"
+            },
+            "require-dev": {
+                "phpunit/phpunit": ">4.0 <9.4"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "mikehaertl\\wkhtmlto\\": "src"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Michael Haertl",
+                    "email": "haertl.mike@gmail.com"
+                }
+            ],
+            "description": "A slim PHP wrapper around wkhtmltopdf with an easy to use and clean OOP interface",
+            "homepage": "http://mikehaertl.github.com/phpwkhtmltopdf/",
+            "keywords": [
+                "pdf",
+                "wkhtmltoimage",
+                "wkhtmltopdf"
+            ],
+            "support": {
+                "issues": "https://github.com/mikehaertl/phpwkhtmltopdf/issues",
+                "source": "https://github.com/mikehaertl/phpwkhtmltopdf/tree/2.5.0"
+            },
+            "time": "2021-03-01T19:41:06+00:00"
+        },
+        {
+            "name": "paxapos/cakepdf",
+            "version": "1.0.5",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/paxapos/CakePdf.git",
+                "reference": "8a739d156f9264e0ffdc2cbf3e248f774fefd032"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/paxapos/CakePdf/zipball/8a739d156f9264e0ffdc2cbf3e248f774fefd032",
+                "reference": "8a739d156f9264e0ffdc2cbf3e248f774fefd032",
+                "shasum": ""
+            },
+            "require": {
+                "composer/installers": "*",
+                "php": ">=5.3.0"
+            },
+            "replace": {
+                "ceeram/cakepdf": "self.version"
+            },
+            "suggest": {
+                "dompdf/dompdf": "When using DomPDF as engine."
+            },
+            "type": "cakephp-plugin",
+            "extra": {
+                "installer-name": "CakePdf"
+            },
+            "license": [
+                "MIT"
+            ],
+            "description": "CakePHP plugin for creating and/or rendering Pdf, several Pdf engines supported.",
+            "homepage": "https://github.com/FriendsOfCake/CakePdf",
+            "support": {
+                "source": "https://github.com/paxapos/CakePdf/tree/1.0.5"
+            },
+            "time": "2018-10-04T01:13:24+00:00"
+        },
+        {
+            "name": "phpoffice/phpexcel",
+            "version": "1.8.2",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/PHPOffice/PHPExcel.git",
+                "reference": "1441011fb7ecdd8cc689878f54f8b58a6805f870"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/PHPOffice/PHPExcel/zipball/1441011fb7ecdd8cc689878f54f8b58a6805f870",
+                "reference": "1441011fb7ecdd8cc689878f54f8b58a6805f870",
+                "shasum": ""
+            },
+            "require": {
+                "ext-mbstring": "*",
+                "ext-xml": "*",
+                "ext-xmlwriter": "*",
+                "php": "^5.2|^7.0"
+            },
+            "require-dev": {
+                "squizlabs/php_codesniffer": "2.*"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-0": {
+                    "PHPExcel": "Classes/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "LGPL-2.1"
+            ],
+            "authors": [
+                {
+                    "name": "Maarten Balliauw",
+                    "homepage": "http://blog.maartenballiauw.be"
+                },
+                {
+                    "name": "Erik Tilt"
+                },
+                {
+                    "name": "Franck Lefevre",
+                    "homepage": "http://rootslabs.net"
+                },
+                {
+                    "name": "Mark Baker",
+                    "homepage": "http://markbakeruk.net"
+                }
+            ],
+            "description": "PHPExcel - OpenXML - Read, Create and Write Spreadsheet documents in PHP - Spreadsheet engine",
+            "homepage": "https://github.com/PHPOffice/PHPExcel",
+            "keywords": [
+                "OpenXML",
+                "excel",
+                "php",
+                "spreadsheet",
+                "xls",
+                "xlsx"
+            ],
+            "support": {
+                "issues": "https://github.com/PHPOffice/PHPExcel/issues",
+                "source": "https://github.com/PHPOffice/PHPExcel/tree/master"
+            },
+            "abandoned": "phpoffice/phpspreadsheet",
+            "time": "2018-11-22T23:07:24+00:00"
         },
         {
             "name": "robwilkerson/cakephp-audit-log-plugin",
@@ -635,27 +984,34 @@
                 "cakephp",
                 "log"
             ],
-            "time": "2017-01-22 03:29:56"
+            "support": {
+                "issues": "https://github.com/robwilkerson/CakePHP-Audit-Log-Plugin/issues",
+                "source": "https://github.com/robwilkerson/CakePHP-Audit-Log-Plugin"
+            },
+            "time": "2017-01-22T03:29:56+00:00"
         }
     ],
     "packages-dev": [
         {
             "name": "cakephp/debug_kit",
-            "version": "2.2.6",
+            "version": "2.2.9",
             "source": {
                 "type": "git",
                 "url": "https://github.com/cakephp/debug_kit.git",
-                "reference": "6c318a779b63bd567fd17811aecc7654a74bbec5"
+                "reference": "8649a612001fa1caee82d9c432b8223cef221104"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/cakephp/debug_kit/zipball/6c318a779b63bd567fd17811aecc7654a74bbec5",
-                "reference": "6c318a779b63bd567fd17811aecc7654a74bbec5",
+                "url": "https://api.github.com/repos/cakephp/debug_kit/zipball/8649a612001fa1caee82d9c432b8223cef221104",
+                "reference": "8649a612001fa1caee82d9c432b8223cef221104",
                 "shasum": ""
             },
             "require": {
-                "composer/installers": "*",
+                "composer/installers": "^1.0.0",
                 "php": ">=5.3.0"
+            },
+            "require-dev": {
+                "cakephp/cakephp-codesniffer": "^1.0.0"
             },
             "type": "cakephp-plugin",
             "extra": {
@@ -686,7 +1042,13 @@
                 "debug",
                 "kit"
             ],
-            "time": "2015-09-13 20:07:55"
+            "support": {
+                "forum": "http://stackoverflow.com/tags/cakephp",
+                "irc": "irc://irc.freenode.org/cakephp",
+                "issues": "https://github.com/cakephp/debug_kit/issues",
+                "source": "https://github.com/cakephp/debug_kit"
+            },
+            "time": "2018-09-18T01:48:48+00:00"
         },
         {
             "name": "phpunit/php-code-coverage",
@@ -747,20 +1109,25 @@
                 "testing",
                 "xunit"
             ],
-            "time": "2014-09-02 10:13:14"
+            "support": {
+                "irc": "irc://irc.freenode.net/phpunit",
+                "issues": "https://github.com/sebastianbergmann/php-code-coverage/issues",
+                "source": "https://github.com/sebastianbergmann/php-code-coverage/tree/1.2.18"
+            },
+            "time": "2014-09-02T10:13:14+00:00"
         },
         {
             "name": "phpunit/php-file-iterator",
-            "version": "1.4.2",
+            "version": "1.4.5",
             "source": {
                 "type": "git",
                 "url": "https://github.com/sebastianbergmann/php-file-iterator.git",
-                "reference": "3cc8f69b3028d0f96a9078e6295d86e9bf019be5"
+                "reference": "730b01bc3e867237eaac355e06a36b85dd93a8b4"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/sebastianbergmann/php-file-iterator/zipball/3cc8f69b3028d0f96a9078e6295d86e9bf019be5",
-                "reference": "3cc8f69b3028d0f96a9078e6295d86e9bf019be5",
+                "url": "https://api.github.com/repos/sebastianbergmann/php-file-iterator/zipball/730b01bc3e867237eaac355e06a36b85dd93a8b4",
+                "reference": "730b01bc3e867237eaac355e06a36b85dd93a8b4",
                 "shasum": ""
             },
             "require": {
@@ -794,7 +1161,12 @@
                 "filesystem",
                 "iterator"
             ],
-            "time": "2016-10-03 07:40:28"
+            "support": {
+                "irc": "irc://irc.freenode.net/phpunit",
+                "issues": "https://github.com/sebastianbergmann/php-file-iterator/issues",
+                "source": "https://github.com/sebastianbergmann/php-file-iterator/tree/1.4.5"
+            },
+            "time": "2017-11-27T13:52:08+00:00"
         },
         {
             "name": "phpunit/php-text-template",
@@ -835,7 +1207,11 @@
             "keywords": [
                 "template"
             ],
-            "time": "2015-06-21 13:50:34"
+            "support": {
+                "issues": "https://github.com/sebastianbergmann/php-text-template/issues",
+                "source": "https://github.com/sebastianbergmann/php-text-template/tree/1.2.1"
+            },
+            "time": "2015-06-21T13:50:34+00:00"
         },
         {
             "name": "phpunit/php-timer",
@@ -884,7 +1260,11 @@
             "keywords": [
                 "timer"
             ],
-            "time": "2017-02-26 11:10:40"
+            "support": {
+                "issues": "https://github.com/sebastianbergmann/php-timer/issues",
+                "source": "https://github.com/sebastianbergmann/php-timer/tree/master"
+            },
+            "time": "2017-02-26T11:10:40+00:00"
         },
         {
             "name": "phpunit/php-token-stream",
@@ -934,11 +1314,17 @@
             "keywords": [
                 "tokenizer"
             ],
-            "time": "2014-03-03 05:10:30"
+            "support": {
+                "irc": "irc://irc.freenode.net/phpunit",
+                "issues": "https://github.com/sebastianbergmann/php-token-stream/issues",
+                "source": "https://github.com/sebastianbergmann/php-token-stream/tree/1.2.2"
+            },
+            "abandoned": true,
+            "time": "2014-03-03T05:10:30+00:00"
         },
         {
             "name": "phpunit/phpunit",
-            "version": "3.7.x-dev",
+            "version": "3.7.38",
             "source": {
                 "type": "git",
                 "url": "https://github.com/sebastianbergmann/phpunit.git",
@@ -1007,7 +1393,12 @@
                 "testing",
                 "xunit"
             ],
-            "time": "2014-10-17 09:04:17"
+            "support": {
+                "irc": "irc://irc.freenode.net/phpunit",
+                "issues": "https://github.com/sebastianbergmann/phpunit/issues",
+                "source": "https://github.com/sebastianbergmann/phpunit/tree/3.7"
+            },
+            "time": "2014-10-17T09:04:17+00:00"
         },
         {
             "name": "phpunit/phpunit-mock-objects",
@@ -1056,24 +1447,110 @@
                 "mock",
                 "xunit"
             ],
-            "time": "2013-01-13 10:24:48"
+            "support": {
+                "irc": "irc://irc.freenode.net/phpunit",
+                "issues": "https://github.com/sebastianbergmann/phpunit-mock-objects/issues",
+                "source": "https://github.com/sebastianbergmann/phpunit-mock-objects/tree/1.2.3"
+            },
+            "abandoned": true,
+            "time": "2013-01-13T10:24:48+00:00"
         },
         {
-            "name": "symfony/yaml",
-            "version": "v2.8.22",
+            "name": "symfony/polyfill-ctype",
+            "version": "v1.30.0",
             "source": {
                 "type": "git",
-                "url": "https://github.com/symfony/yaml.git",
-                "reference": "4c29dec8d489c4e37cf87ccd7166cd0b0e6a45c5"
+                "url": "https://github.com/symfony/polyfill-ctype.git",
+                "reference": "0424dff1c58f028c451efff2045f5d92410bd540"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/symfony/yaml/zipball/4c29dec8d489c4e37cf87ccd7166cd0b0e6a45c5",
-                "reference": "4c29dec8d489c4e37cf87ccd7166cd0b0e6a45c5",
+                "url": "https://api.github.com/repos/symfony/polyfill-ctype/zipball/0424dff1c58f028c451efff2045f5d92410bd540",
+                "reference": "0424dff1c58f028c451efff2045f5d92410bd540",
                 "shasum": ""
             },
             "require": {
-                "php": ">=5.3.9"
+                "php": ">=7.1"
+            },
+            "provide": {
+                "ext-ctype": "*"
+            },
+            "suggest": {
+                "ext-ctype": "For best performance"
+            },
+            "type": "library",
+            "extra": {
+                "thanks": {
+                    "url": "https://github.com/symfony/polyfill",
+                    "name": "symfony/polyfill"
+                }
+            },
+            "autoload": {
+                "files": [
+                    "bootstrap.php"
+                ],
+                "psr-4": {
+                    "Symfony\\Polyfill\\Ctype\\": ""
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Gert de Pagter",
+                    "email": "BackEndTea@gmail.com"
+                },
+                {
+                    "name": "Symfony Community",
+                    "homepage": "https://symfony.com/contributors"
+                }
+            ],
+            "description": "Symfony polyfill for ctype functions",
+            "homepage": "https://symfony.com",
+            "keywords": [
+                "compatibility",
+                "ctype",
+                "polyfill",
+                "portable"
+            ],
+            "support": {
+                "source": "https://github.com/symfony/polyfill-ctype/tree/v1.30.0"
+            },
+            "funding": [
+                {
+                    "url": "https://symfony.com/sponsor",
+                    "type": "custom"
+                },
+                {
+                    "url": "https://github.com/fabpot",
+                    "type": "github"
+                },
+                {
+                    "url": "https://tidelift.com/funding/github/packagist/symfony/symfony",
+                    "type": "tidelift"
+                }
+            ],
+            "time": "2024-05-31T15:07:36+00:00"
+        },
+        {
+            "name": "symfony/yaml",
+            "version": "v2.8.52",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/symfony/yaml.git",
+                "reference": "02c1859112aa779d9ab394ae4f3381911d84052b"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/symfony/yaml/zipball/02c1859112aa779d9ab394ae4f3381911d84052b",
+                "reference": "02c1859112aa779d9ab394ae4f3381911d84052b",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=5.3.9",
+                "symfony/polyfill-ctype": "~1.8"
             },
             "type": "library",
             "extra": {
@@ -1105,7 +1582,10 @@
             ],
             "description": "Symfony Yaml Component",
             "homepage": "https://symfony.com",
-            "time": "2017-06-01 20:52:29"
+            "support": {
+                "source": "https://github.com/symfony/yaml/tree/v2.8.52"
+            },
+            "time": "2018-11-11T11:18:13+00:00"
         }
     ],
     "aliases": [],
@@ -1113,7 +1593,7 @@
     "stability-flags": {
         "afigestion/plugins": 20,
         "afigestion/afitheme": 20,
-        "croogo/locale": 20,
+        "marianovdb/cakephp-audit-log-plugin": 20,
         "phpunit/phpunit": 20
     },
     "prefer-stable": false,
@@ -1121,5 +1601,6 @@
     "platform": {
         "php": ">=5.3.10"
     },
-    "platform-dev": []
+    "platform-dev": [],
+    "plugin-api-version": "2.2.0"
 }
