@@ -29,19 +29,19 @@
 	"repositories": [
         {
             "type": "vcs",
-            "url": "git@github.com:uejn/afigestion-app.git"
+            "url": "https://github.com/uejn/afigestion-app.git"
         },
         {
             "type": "vcs",
-            "url": "git@github.com:uejn/afigestion-theme-bootstrap.git"
+            "url": "https://github.com/uejn/afigestion-theme-bootstrap.git"
         },
         {
             "type": "vcs",
-            "url": "git@github.com:uejn/croogo-bootstrap-theme.git"
+            "url": "https://github.com/uejn/croogo-bootstrap-theme.git"
         },
 	    {
 	        "type": "vcs", 
-	        "url": "git@github.com:paxapos/CakePdf.git" 
+	        "url": "https://github.com/paxapos/CakePdf.git" 
 	    },
         {
             "type": "vcs",
