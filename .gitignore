@@ -1,11 +1,5 @@
 # App
-Config/croogo.php
-Config/afigestion.php
-Config/database.php
-Config/settings.json
 webroot/uploads/
-Plugin/
-Vendor/
 *.bak
 *.swp
 .phpintel/
@@ -15,11 +9,9 @@ cookbooks/
 node_modules/
 webroot/vendors/
 
-# Cake cache
-tmp
-tmp/*
-
 # Others
 .DS_Store
 
 View/Themed/CroogoBootstrap/
+
+.vscode
